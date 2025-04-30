@@ -1,5 +1,4 @@
 # Hierarchical Table Lumel
-
 A React application that displays a hierarchical data table with dynamic value allocation and variance calculation.
 
 ## Features
@@ -22,7 +21,6 @@ A React application that displays a hierarchical data table with dynamic value a
 - Visual feedback on how values have changed
 
 ## Technologies Used
-
 - React.js
 - JavaScript (ES6+)
 - CSS for styling
@@ -84,3 +82,6 @@ App
    ```
 
 5. Open http://localhost:5173/ in your browser
+
+## Live Demo
+View the live demo: [hierarchial-table-lumel](https://hierarchial-table-lumel.vercel.app/)
