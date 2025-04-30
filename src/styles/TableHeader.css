@@ -1,0 +1,36 @@
+.table-header {
+    display: flex;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .label-header, .value-header, .input-header, .button-header, .variance-header {
+    padding: 12px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .label-header {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .value-header {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .input-header {
+    flex: 1;
+  }
+  
+  .button-header {
+    flex: 1.5;
+  }
+  
+  .variance-header {
+    flex: 1;
+    text-align: right;
+  }

@@ -1,0 +1,40 @@
+.table-footer {
+    display: flex;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    border-top: 2px solid #ddd;
+  }
+  
+  .table-footer .label-cell,
+  .table-footer .value-cell,
+  .table-footer .input-cell,
+  .table-footer .button-cell,
+  .table-footer .variance-cell {
+    padding: 12px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .table-footer .label-cell {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .table-footer .value-cell {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .table-footer .input-cell {
+    flex: 1;
+  }
+  
+  .table-footer .button-cell {
+    flex: 1.5;
+  }
+  
+  .table-footer .variance-cell {
+    flex: 1;
+    text-align: right;
+  }
